@@ -1,0 +1,291 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AAC62FBC-912A-491E-AB7E-25AD052422EC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheProject</RootNamespace>
+    <AssemblyName>TheProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44379</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\2dde57640c4a5abbf7107ba54d96e7d9.jpg" />
+    <Content Include="image\accessories\basket.jpg" />
+    <Content Include="image\accessories\basket2.jpg" />
+    <Content Include="image\accessories\basket3.jpg" />
+    <Content Include="image\accessories\basket4.jpg" />
+    <Content Include="image\accessories\basket5.jpg" />
+    <Content Include="image\accessories\basket6.jpg" />
+    <Content Include="image\accessories\doll&amp;safe.jpg" />
+    <Content Include="image\accessories\mobile.jpg" />
+    <Content Include="image\accessories\mobile2.jpg" />
+    <Content Include="image\accessories\mobile3.jpg" />
+    <Content Include="image\accessories\picture.jpg" />
+    <Content Include="image\accessories\picture2.jpg" />
+    <Content Include="image\accessories\picture3.jpg" />
+    <Content Include="image\accessories\picture4.jpg" />
+    <Content Include="image\accessories\picture5.jpg" />
+    <Content Include="image\accessories\picture6.jpg" />
+    <Content Include="image\accessories\pillow.jpg" />
+    <Content Include="image\accessories\shelf.jpg" />
+    <Content Include="image\accessories\shelf2.jpg" />
+    <Content Include="image\accessories\shelf3.jpg" />
+    <Content Include="image\accessories\shelf4.jpg" />
+    <Content Include="image\babies\13.jpg" />
+    <Content Include="image\babies\baby.jpg" />
+    <Content Include="image\babies\baby2.jpg" />
+    <Content Include="image\babies\baby3.jpg" />
+    <Content Include="image\furniture\PH171677-crop001 %281%29.jpg" />
+    <Content Include="image\furniture\עריה5.jpg" />
+    <Content Include="image\furniture\עריסה 1.jpg" />
+    <Content Include="image\furniture\עריסה 2.jpeg" />
+    <Content Include="image\furniture\עריסה-שמנת.jpg" />
+    <Content Include="image\furniture\עריסה3.png" />
+    <Content Include="image\furniture\עריסה6.jpg" />
+    <Content Include="image\guide\0040_shutterstock_495898627.jpg" />
+    <Content Include="image\guide\0044_shutterstock_326798621.jpg" />
+    <Content Include="image\guide\0045_shutterstock_323129030.jpg" />
+    <Content Include="image\guide\0073_Fotolia_144850359_Subscription_Monthly_XL.jpg" />
+    <Content Include="image\guide\0124_Assaf-Pinchuk-photography_0196.jpg" />
+    <Content Include="image\guide\1.jpg" />
+    <Content Include="image\guide\2.jpg" />
+    <Content Include="image\guide\3.jpg" />
+    <Content Include="image\guide\4.png" />
+    <Content Include="image\logo\image_logo_2022-05-13_14-34-51.jpg" />
+    <Content Include="image\logo\logggo %282%29.jpg" />
+    <Content Include="image\logo\logggo.jpg" />
+    <Content Include="image\logo\logo.jpg" />
+    <Content Include="image\logo\logo1.jpg" />
+    <Content Include="image\logo\logo2.jpg" />
+    <Content Include="image\logo\mega.jpg" />
+    <Content Include="image\logo\תמונה1.png" />
+    <Content Include="image\rooms\16.jpg" />
+    <Content Include="image\rooms\17.jpg" />
+    <Content Include="image\rooms\18.jpg" />
+    <Content Include="image\rooms\19.jpg" />
+    <Content Include="image\rooms\20.jpg" />
+    <Content Include="image\rooms\21.jpg" />
+    <Content Include="image\rooms\22.jpg" />
+    <Content Include="image\rooms\23.jpg" />
+    <Content Include="image\rooms\24.jpg" />
+    <Content Include="image\rooms\25.jpg" />
+    <Content Include="image\rooms\26.jpg" />
+    <Content Include="image\rooms\27.jpg" />
+    <Content Include="image\rooms\28.jpg" />
+    <Content Include="image\rooms\29.jpg" />
+    <Content Include="image\rooms\30.jpg" />
+    <Content Include="image\rooms\31.png" />
+    <Content Include="image\rooms\32.jpg" />
+    <Content Include="image\rooms\33.jpg" />
+    <Content Include="image\rooms\34.jpg" />
+    <Content Include="image\rooms\35.jpg" />
+    <Content Include="image\rooms\36.jpg" />
+    <Content Include="image\rooms\37 - Copy.jpg" />
+    <Content Include="image\rooms\37.jpg" />
+    <Content Include="image\rooms\38 - Copy.jpg" />
+    <Content Include="image\rooms\38.jpg" />
+    <Content Include="image\rooms\39 - Copy.jpg" />
+    <Content Include="image\rooms\39.jpg" />
+    <Content Include="image\rooms\4 - Copy.jpg" />
+    <Content Include="image\rooms\40.jpg" />
+    <Content Include="image\rooms\41.jpg" />
+    <Content Include="image\rooms\42.jpg" />
+    <Content Include="image\rooms\43.jpg" />
+    <Content Include="image\rooms\44.jpg" />
+    <Content Include="image\rooms\45.jpg" />
+    <Content Include="image\rooms\46.jpg" />
+    <Content Include="image\rooms\47.jpg" />
+    <Content Include="image\rooms\48.jpg" />
+    <Content Include="image\rooms\49.jpg" />
+    <Content Include="image\rooms\50.jpg" />
+    <Content Include="image\rooms\51.jpg" />
+    <Content Include="image\rooms\52.jpg" />
+    <Content Include="image\rooms\53.jpg" />
+    <Content Include="image\rooms\54.jpg" />
+    <Content Include="image\rooms\55.jpg" />
+    <Content Include="image\rooms\56.jpg" />
+    <Content Include="image\rooms\57.jpg" />
+    <Content Include="image\rooms\58.jpg" />
+    <Content Include="image\rooms\59.jpg" />
+    <Content Include="image\rooms\60.jpg" />
+    <Content Include="image\rooms\main.jpg" />
+    <Content Include="image\wallpapers\1.jpg" />
+    <Content Include="image\wallpapers\10.jpg" />
+    <Content Include="image\wallpapers\11.jpg" />
+    <Content Include="image\wallpapers\12.jpg" />
+    <Content Include="image\wallpapers\13.jpg" />
+    <Content Include="image\wallpapers\14.jpg" />
+    <Content Include="image\wallpapers\15.jpg" />
+    <Content Include="image\wallpapers\16.jpg" />
+    <Content Include="image\wallpapers\2.jpg" />
+    <Content Include="image\wallpapers\3.jpg" />
+    <Content Include="image\wallpapers\4.jpg" />
+    <Content Include="image\wallpapers\5.jpg" />
+    <Content Include="image\wallpapers\6.jpg" />
+    <Content Include="image\wallpapers\7.jpg" />
+    <Content Include="image\wallpapers\8.jpg" />
+    <Content Include="image\wallpapers\9.jpg" />
+    <Content Include="image\wallpapers\product32873_image1_2022-08-11_16-01-48 %281%29.jpg" />
+    <Content Include="image\wallpapers\product32968_image1_2021-07-25_17-14-36.jpg" />
+    <Content Include="image\wallpapers\product33009_image1_2021-08-04_11-38-51.jpg" />
+    <Content Include="image\wallpapers\product33010_image1_2021-08-04_11-50-03.jpg" />
+    <Content Include="image\wallpapers\product33038_image1_2021-08-22_10-38-29.jpg" />
+    <Content Include="image\wallpapers\product33130_image1_2021-12-09_15-55-58.jpg" />
+    <Content Include="image\wallpapers\product33158_image1_2022-01-13_11-13-38.jpg" />
+    <Content Include="image\wallpapers\product33160_image1_2022-02-02_16-56-23.jpg" />
+    <Content Include="image\wallpapers\product33165_image1_2022-02-13_14-44-35.jpg" />
+    <Content Include="image\wallpapers\product33166_image1_2022-02-13_14-51-20.jpg" />
+    <Content Include="image\wallpapers\product33172_image1_2022-05-10_15-28-40.jpg" />
+    <Content Include="image\wallpapers\product33341_image1_2022-08-22_12-20-35 %281%29.jpg" />
+    <Content Include="pages\accessories.html" />
+    <Content Include="pages\accessories1.html" />
+    <Content Include="pages\cribs.html" />
+    <Content Include="pages\furniture.html" />
+    <Content Include="pages\guide.html" />
+    <Content Include="pages\Home.html" />
+    <Content Include="image\rooms\1.jpg" />
+    <Content Include="image\rooms\10.jpg" />
+    <Content Include="image\rooms\11.jpg" />
+    <Content Include="image\rooms\12.jpg" />
+    <Content Include="image\rooms\13.jpg" />
+    <Content Include="image\rooms\14.jpg" />
+    <Content Include="image\rooms\15.jpg" />
+    <Content Include="image\rooms\2.jpg" />
+    <Content Include="image\rooms\3.jpg" />
+    <Content Include="image\rooms\4.jpg" />
+    <Content Include="image\rooms\5.jpg" />
+    <Content Include="image\rooms\6.jpg" />
+    <Content Include="image\rooms\7.jpg" />
+    <Content Include="image\rooms\8.jpg" />
+    <Content Include="image\rooms\9.jpg" />
+    <Content Include="pages\rooms.html" />
+    <Content Include="pages\shida.html" />
+    <Content Include="pages\gallery.html" />
+    <Content Include="pages\wallpaper.html" />
+    <Content Include="styleSheets\accessories.css" />
+    <Content Include="styleSheets\cribsStylecss.css" />
+    <Content Include="styleSheets\homestyle.css" />
+    <Content Include="styleSheets\nav.css" />
+    <Content Include="styleSheets\StyleSheet1.css" />
+    <Content Include="styleSheets\wallpaper.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\furniture\myllra-cot-with-drawer-white__0812403_pe783210_s5.webp" />
+    <Content Include="image\furniture\PH164356-crop002.webp" />
+    <Content Include="image\furniture\PH168460-crop001.webp" />
+    <Content Include="image\furniture\smagoera-3-piece-baby-furniture-set-white__0987192_pe817463_s5.webp" />
+    <Content Include="image\furniture\smagoera-cot-white__0748851_pe745280_s5.webp" />
+    <Content Include="image\furniture\sniglar-cot-beech__1001143_pe824533_s5.webp" />
+    <Content Include="image\furniture\sundvik-cot-grey__0958273_pe806087_s5.webp" />
+    <Content Include="image\furniture\עריסה7.webp" />
+    <Content Include="image\furniture\עריסה9.webp" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61623</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44379/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
